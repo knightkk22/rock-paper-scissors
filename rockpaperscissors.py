@@ -23,4 +23,13 @@ if computerselection == 2 and playerselection == 1:
   print("I WIN")
 if computerselection == 2 and playerselection == 0:
   print("Computer throws scissors")
-  print("")
+  print("YOU WIN")
+if computerselection == 0 and playerselection == 2:
+  print("Computer throws scissors")
+  print("I WIN")
+if computerselection == 2 and playerselection == 2:
+  print("Computer throws scissors")
+  print("Game ends in tie")
+if computerselection == 1 and playerselection == 1:
+  print("Computer throws paper")
+  print("Game ends in tie")
